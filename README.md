@@ -125,7 +125,7 @@ Ese enlace dirige a la portada del proyecto. Desde esa interfaz se accede al pro
 
 Repositorio del proyecto:
 
-https://github.com/LucasMonteras/Pr-ctica-Formativa-Obligatoria-2
+https://github.com/LucasMonteras/Practica-Formativa-Obligatoria-2
 
 ## Capturas del proyecto
 
