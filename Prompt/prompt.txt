@@ -1,0 +1,177 @@
+Actúa como un desarrollador Front End senior con experiencia en integración de proyectos estáticos, organización de entregas académicas, HTML, CSS, JavaScript vanilla y preparación de proyectos listos para deploy en Vercel.
+
+Tu tarea es trabajar **dentro de la carpeta actual del proyecto** y dejar lista la integración final de una entrega académica llamada **Práctica Formativa Obligatoria 2 - Prompt Engineering en Agentes de IA**.
+
+## Contexto del proyecto
+
+Dentro de esta carpeta actual ya existen estas subcarpetas:
+
+* `Codex/` → contiene una landing page generada por Codex
+* `OpenCode/` → contiene una landing page generada por OpenCode
+* `Portada/` → carpeta destinada a la portada del proyecto final
+* `Prompt/` → carpeta destinada a guardar el prompt exacto utilizado
+
+También existe un archivo PDF de referencia de la consigna, pero no es necesario modificarlo.
+
+## Objetivo
+
+Quiero que dejes el proyecto final organizado para una entrega académica con:
+
+1. una **portada principal**
+2. un acceso al **prompt exacto en texto plano**
+3. un acceso a la **landing generada por Codex**
+4. un acceso a la **landing generada por OpenCode**
+5. una estructura clara y lista para subir a GitHub
+6. una base lista para hacer un único deploy en Vercel
+
+## Importante
+
+No quiero que modifiques manualmente el contenido esencial de las landings generadas por cada agente, salvo que sea estrictamente necesario para que funcionen correctamente dentro de la estructura final del proyecto.
+
+Tu prioridad es:
+
+* integrar
+* ordenar
+* enlazar
+* dejar todo funcional
+* y preparar la entrega final
+
+## Requisitos de la integración
+
+Necesito que hagas lo siguiente:
+
+### 1. Revisar la estructura actual
+
+* inspeccioná las carpetas `Codex/`, `OpenCode/`, `Portada/` y `Prompt/`
+* identificá cuáles son los archivos principales de cada landing
+* verificá si existen archivos como `index.html`, `styles.css`, `script.js`, assets o imágenes necesarias
+
+### 2. Crear o completar la portada final
+
+Dentro de la carpeta `Portada/`, generá una portada principal profesional, clara y responsive.
+
+La portada debe incluir:
+
+* título principal: **Práctica Formativa Obligatoria 2**
+* subtítulo: **Prompt Engineering en Agentes de IA**
+* breve explicación de que el proyecto compara resultados generados por dos agentes distintos a partir del mismo prompt
+* mi nombre como autor de la entrega
+* tres accesos directos claramente visibles:
+
+#### Acceso 1
+
+Texto: **Ver Prompt Utilizado**
+
+#### Acceso 2
+
+Texto: **Ver Landing generada por Codex**
+Además, debe indicar visualmente:
+
+* agente: Codex
+* modelo: si puede inferirse automáticamente, mostrarlo; si no, mostrar “modelo no identificado”
+
+#### Acceso 3
+
+Texto: **Ver Landing generada por OpenCode**
+Además, debe indicar visualmente:
+
+* agente: OpenCode
+* modelo: si puede inferirse automáticamente, mostrarlo; si no, mostrar “modelo no identificado”
+
+### 3. Guardar el prompt exacto
+
+Dentro de la carpeta `Prompt/`, crear o sobrescribir un archivo:
+
+* `prompt.txt`
+
+Ese archivo debe contener exactamente este texto completo del prompt que estoy escribiendo ahora mismo.
+Si no podés autoextraer con precisión el texto completo del mensaje actual, entonces creá el archivo con un encabezado claro y una nota indicando que el usuario debe pegar manualmente el prompt exacto utilizado para cumplir la consigna.
+
+### 4. Garantizar navegación funcional
+
+La portada debe enlazar correctamente hacia:
+
+* el archivo de texto del prompt
+* la landing de `Codex/`
+* la landing de `OpenCode/`
+
+Usá rutas relativas correctas.
+
+### 5. Preparar el proyecto para un único deploy
+
+Quiero que la estructura quede lista para que después yo pueda:
+
+* subir todo a un único repositorio de GitHub
+* hacer un único deploy en Vercel
+* y que la entrada principal del proyecto sea la portada
+
+### 6. Punto de entrada principal
+
+Necesito que el proyecto final arranque desde la **portada**.
+
+Elegí la mejor estrategia para esto, por ejemplo:
+
+* creando un `index.html` en la raíz que redirija o enlace a `Portada/`
+* o moviendo/adaptando la portada para que funcione como entrada principal
+* pero sin romper la organización del proyecto
+
+Tomá la decisión más clara, mantenible y profesional.
+
+## Requisitos técnicos
+
+* usar HTML, CSS y JavaScript vanilla para la portada, salvo que la estructura existente requiera otra cosa
+* mantener código limpio, ordenado y comentado solo si hace falta
+* no usar frameworks innecesarios
+* diseño responsive
+* estética profesional y académica
+* navegación clara
+* no agregar backend
+* no borrar las carpetas `Codex/`, `OpenCode/`, `Portada/` ni `Prompt/`
+
+## Restricciones
+
+* no tocar manualmente el contenido esencial de las dos landing salvo necesidad técnica real
+* no inventar archivos irrelevantes
+* no dejar tareas a medio hacer
+* no pedir confirmaciones innecesarias
+* no salir de la carpeta actual del proyecto
+* no depender de herramientas externas innecesarias
+
+## Entregables esperados
+
+Quiero que al terminar dejes:
+
+* la portada creada y funcional
+* el acceso al prompt resuelto
+* los links a ambas landing funcionando
+* la estructura lista para GitHub
+* la entrada principal del proyecto definida
+* y una nota final breve indicando:
+
+  * qué archivos creaste
+  * qué archivos modificaste
+  * cómo quedó organizado el proyecto
+  * cuál es el archivo principal que debería usar Vercel como entrada
+
+## Criterio de calidad
+
+La solución final debe:
+
+* verse ordenada
+* ser clara para el docente
+* cumplir con la consigna de la portada de acceso
+* dejar el proyecto listo para repositorio y deploy
+* minimizar intervención manual posterior
+
+## Verificación final antes de terminar
+
+Antes de finalizar, verificá:
+
+* que la portada exista y funcione
+* que los 3 accesos estén visibles y correctos
+* que las rutas relativas funcionen
+* que el prompt esté guardado o al menos correctamente preparado
+* que la estructura sea coherente para un deploy unificado
+* que exista un punto de entrada principal para el proyecto
+
+Ahora analizá la carpeta actual, integrá todo y dejá el proyecto final listo para subir a GitHub y desplegar en Vercel.

@@ -1,0 +1,185 @@
+Actúa como un desarrollador Front End senior especializado en HTML, CSS y JavaScript, con criterio profesional de UX/UI, accesibilidad, responsive design, semántica HTML y organización limpia de archivos.
+
+Tu tarea es generar de forma autónoma una **Landing Page completa**, moderna, profesional, responsive y lista para mostrarse, trabajando únicamente dentro de la carpeta actual del proyecto.
+
+## Contexto
+
+Este trabajo forma parte de una práctica académica individual sobre **Prompt Engineering en agentes de IA**.
+El objetivo no es iterar muchas veces ni corregir manualmente el código, sino evaluar qué tan bien resolvés una landing page a partir de un único prompt inicial de alta precisión.
+
+Por eso:
+
+* debés actuar de manera autónoma,
+* no debés pedir confirmaciones innecesarias,
+* no debés dejar tareas incompletas,
+* y no debés requerir edición manual del código.
+
+## Objetivo
+
+Crear una Landing Page para una empresa ficticia llamada **Nexo Digital**, dedicada al desarrollo web, diseño de landing pages, automatización de procesos y soluciones digitales para pequeños negocios y emprendedores.
+
+La landing debe transmitir:
+
+* profesionalismo
+* claridad
+* confianza
+* enfoque comercial
+* estética moderna y tecnológica
+
+## Requisitos funcionales obligatorios
+
+La landing page debe incluir sí o sí estas secciones:
+
+### 1. Header
+
+* nombre o logo textual de la marca
+* menú de navegación con enlaces internos
+* botón o enlace destacado de contacto o CTA
+
+### 2. Hero Section
+
+* título principal impactante
+* subtítulo claro
+* botón de llamada a la acción (CTA)
+* recurso visual acorde al diseño
+
+### 3. Sobre Nosotros
+
+* breve descripción de la empresa
+* propuesta de valor
+* tono profesional y confiable
+
+### 4. Servicios o Características principales
+
+* mínimo 3 bloques de servicios o características
+* cada uno con título y descripción breve
+
+### 5. Testimonios o Reseñas
+
+* mínimo 3 testimonios ficticios coherentes
+* presentados visualmente como una sección diferenciada
+
+### 6. Formulario de contacto
+
+* maquetado visual solamente
+* no requiere backend
+* incluir campos razonables: nombre, email y mensaje
+
+### 7. Footer
+
+* texto final de marca
+* enlaces a redes sociales
+* cierre visual profesional
+
+## Requisitos técnicos
+
+* usar únicamente **HTML, CSS y JavaScript vanilla**
+* no usar frameworks ni librerías externas innecesarias
+* generar una solución completamente responsive
+* usar HTML semántico cuando corresponda
+* mantener el código claro, prolijo y bien separado
+* crear nombres de clases consistentes y legibles
+* incluir interacciones visuales simples y profesionales
+* si corresponde, incluir scroll suave en la navegación
+* evitar dependencias externas salvo fuentes o íconos muy razonables si realmente aportan valor
+
+## Restricciones estrictas
+
+* no generar backend
+* no usar texto de relleno tipo lorem ipsum
+* no dejar secciones vacías o incompletas
+* no pedir intervención manual salvo bloqueo técnico real
+* no modificar archivos fuera de la carpeta actual
+* no detenerte a pedir autorización por decisiones menores
+* no crear una aplicación compleja: el objetivo es una landing clara, sólida y profesional
+
+## Criterios de calidad
+
+La landing debe:
+
+* verse moderna y profesional
+* tener buena jerarquía visual
+* usar una paleta de colores coherente
+* mantener consistencia entre secciones
+* verse bien en desktop, tablet y mobile
+* tener CTA visible
+* ser clara para usuarios no técnicos
+* mostrar una estructura semántica correcta
+* evitar saturación visual o exceso de elementos decorativos
+
+## Contenido esperado
+
+Generá textos realistas y coherentes para una empresa digital ficticia.
+No copies contenido real de marcas existentes.
+
+Usá un tono:
+
+* profesional
+* claro
+* comercial
+* confiable
+
+## Entregables obligatorios
+
+Dentro de la carpeta actual, generá todos los archivos necesarios para dejar la landing funcionando.
+
+Como mínimo, entregá:
+
+* `index.html`
+* `styles.css`
+* `script.js`
+
+Además, creá:
+
+* `PROMPT_USED.txt` con el texto completo de este prompt
+* `AGENT_INFO.txt` indicando:
+
+  * nombre del agente
+  * modelo usado si está disponible
+  * y si no podés detectarlo automáticamente, aclaralo explícitamente
+
+## Estilo visual sugerido
+
+Usá una estética:
+
+* tecnológica
+* limpia
+* actual
+* elegante
+
+Sugerencias:
+
+* fondo claro u oscuro, pero con buena legibilidad
+* uno o dos colores de acento
+* botones bien visibles
+* secciones con buen espaciado
+* tarjetas o bloques suaves para servicios y testimonios
+
+## Autonomía esperada
+
+Tomá decisiones razonables por tu cuenta sobre:
+
+* estructura final
+* distribución responsive
+* textos exactos
+* nombres de clases
+* jerarquía visual
+* detalles de estilo
+* microinteracciones
+
+Si existen varias opciones válidas, elegí la más clara, mantenible y profesional.
+
+## Verificación final antes de terminar
+
+Antes de dar por finalizada la tarea, revisá que:
+
+* estén todas las secciones obligatorias
+* no haya texto de relleno genérico
+* el HTML sea semántico y correcto
+* el diseño sea responsive
+* los enlaces internos funcionen
+* el formulario esté bien maquetado
+* el CTA sea visible
+* la solución quede lista para mostrarse
+
+Ahora ejecutá la tarea y generá la landing page completa dentro de esta carpeta.

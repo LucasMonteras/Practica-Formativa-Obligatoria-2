@@ -1,0 +1,5 @@
+Nombre del agente: opencode
+Plataforma: opencode CLI
+Modelo utilizado: big-pickle (ID: opencode/big-pickle)
+Framework: No se utilizan frameworks externos. HTML, CSS y JavaScript vanilla.
+Dependencias externas: Google Fonts (Inter), Font Awesome 6.5.1 (CDN)

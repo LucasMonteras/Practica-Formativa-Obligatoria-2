@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Práctica Formativa Obligatoria 2</title>
+    <meta
+      name="description"
+      content="Portada de entrega para la Práctica Formativa Obligatoria 2 sobre Prompt Engineering en Agentes de IA."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hero" aria-labelledby="titulo-principal">
+        <div class="hero__content">
+          <p class="hero__eyebrow">Entrega académica</p>
+          <h1 id="titulo-principal">Práctica Formativa Obligatoria 2</h1>
+          <p class="hero__subtitle">Prompt Engineering en Agentes de IA</p>
+          <p class="hero__description">
+            Este proyecto compara los resultados generados por dos agentes distintos a partir del mismo prompt inicial,
+            integrando ambas landing pages en una entrega única, clara y lista para revisión.
+          </p>
+        </div>
+
+        <aside class="summary" aria-label="Datos de la entrega">
+          <span class="summary__label">Autor</span>
+          <strong>Lucas</strong>
+          <span class="summary__label">Modalidad</span>
+          <strong>Comparación de agentes IA</strong>
+        </aside>
+      </section>
+
+      <section class="access" aria-label="Accesos principales">
+        <a class="access-card access-card--prompt" href="../Prompt/prompt.txt">
+          <span class="access-card__meta">Texto plano</span>
+          <strong>Ver Prompt Utilizado</strong>
+          <span class="access-card__description">Prompt exacto utilizado para generar las landings.</span>
+        </a>
+
+        <a class="access-card" href="../Codex/index.html">
+          <span class="access-card__meta">Agente: Codex</span>
+          <strong>Ver Landing generada por Codex</strong>
+          <span class="access-card__description">Modelo: GPT-5</span>
+        </a>
+
+        <a class="access-card" href="../OpenCode/index.html">
+          <span class="access-card__meta">Agente: OpenCode</span>
+          <strong>Ver Landing generada por OpenCode</strong>
+          <span class="access-card__description">Modelo: opencode/big-pickle</span>
+        </a>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
